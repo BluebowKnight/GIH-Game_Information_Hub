@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# 沙箱临时文件
+.codebuddy/
+
+# macOS
+.DS_Store

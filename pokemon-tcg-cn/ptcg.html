@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>宝可梦简中卡牌情报站 · 新品 / 赛事 / 牌店 / 环境 / 赛制</title>
+<meta name="description" content="宝可梦集换式卡牌游戏（简中版）情报站：新品上新、官方赛事、牌店快闪、环境牌组、版本赛制，数据全部来自宝可梦中国官方网站。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand-row">
+      <span class="brand-badge">简体中文版 · PTCG</span>
+      <span class="brand-badge" id="badge-cycle">官方数据源</span>
+    </div>
+    <h1 class="site-title">宝可梦简中卡牌情报站</h1>
+    <p class="site-sub">
+      五个常驻栏目，汇聚宝可梦集换式卡牌游戏（简中版）的最新动向。
+      全部内容抓取自宝可梦中国官方网站。
+    </p>
+    <div class="meta-bar" id="meta-bar"></div>
+  </div>
+  <a class="pokeball-link" href="../index.html" title="返回情报合集" aria-label="返回情报合集"></a>
+</header>
+
+<nav class="cat-nav" id="cat-nav">
+  <div class="wrap">
+    <a class="nav-link" href="#sec-products">新品 / 上新<span class="n" id="n-products"></span></a>
+    <a class="nav-link" href="#sec-events">活动 / 赛事<span class="n" id="n-events"></span></a>
+    <a class="nav-link" href="#sec-shops">官方道馆<span class="n" id="n-shops"></span></a>
+    <a class="nav-link" href="#sec-decks">环境牌组<span class="n" id="n-decks"></span></a>
+    <a class="nav-link" href="#sec-regulation">版本 / 赛制<span class="n" id="n-regulation"></span></a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <!-- ============================================ 1. 新品 / 上新 -->
+  <section class="section" id="sec-products">
+    <div class="sec-head">
+      <span class="sec-tag">01</span>
+      <h2 class="sec-title">新品 / 上新</h2>
+    </div>
+    <div class="filters" id="product-filters"></div>
+    <div class="released-bar" id="released-bar"></div>
+    <div class="grid" id="product-grid"></div>
+  </section>
+
+  <!-- ============================================ 2. 活动 / 赛事 -->
+  <section class="section" id="sec-events">
+    <div class="sec-head">
+      <span class="sec-tag">02</span>
+      <h2 class="sec-title">活动 / 赛事</h2>
+    </div>
+    <div class="sec-subhead">
+      <span class="ss-count" id="event-count"></span>
+    </div>
+    <div class="timeline" id="event-list"></div>
+    <button class="more-bar" id="event-more-bar" hidden></button>
+  </section>
+
+  <!-- ============================================ 3. 官方卡牌道馆 -->
+  <section class="section" id="sec-shops">
+    <div class="sec-head">
+      <span class="sec-tag">03</span>
+      <h2 class="sec-title">官方卡牌道馆 <span class="sec-subtitle" id="gym-total"></span></h2>
+    </div>
+
+    <div class="search-row">
+      <input class="search-input" id="shop-search" type="search" placeholder="搜索城市或店名，例如：上海、北京、光谷">
+    </div>
+    <div class="shop-grid" id="shop-grid"></div>
+    <button class="more-bar" id="gym-more-bar" hidden></button>
+
+    <h3 class="panel-title" style="margin:26px 0 12px;">即将开店</h3>
+    <div class="timeline" id="shop-news"></div>
+  </section>
+
+  <!-- ============================================ 4. 环境牌组 -->
+  <section class="section" id="sec-decks">
+    <div class="sec-head">
+      <span class="sec-tag">04</span>
+      <h2 class="sec-title">环境牌组</h2>
+    </div>
+    <div class="notice">
+      <span class="ico">ℹ️</span>
+      <div>
+        数据来自 <b>AREAZERO.GG</b>，简中目前唯一做量化统计的环境站，数字全部源自官方赛事的
+        完赛排名和参赛人数，只统计拿到表现分的卡组。<br>
+        看这份榜单重点盯<b>转换比</b>（表现分占比 ÷ 使用率）：高于 1，就是人少赢多、
+        还有上升空间的牌组；低于 1，热度已经跑到成绩前面，追高要谨慎。<br>
+        官方没公布的日期均属推测；点牌组名可以看打法拆解和风险提示。
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3 class="panel-title">主流牌组排行 <span id="deck-meta-count"
+        style="color:var(--ink-3);font-weight:500;font-size:13px;"></span></h3>
+      <div class="deck-source" id="deck-source"></div>
+      <div class="deck-hint">点牌组名看拆解 →</div>
+      <div class="deck-rank" id="deck-rank"></div>
+      <button class="more-bar" id="deck-more-bar" hidden></button>
+      <div class="deck-tail" id="deck-tail"></div>
+    </div>
+
+    <div class="deck-metrics-box">
+      <div class="dm-title">指标说明</div>
+      <div class="dm-body" id="deck-metrics"></div>
+    </div>
+
+    <div id="deck-conclusion"></div>
+
+    <div id="deck-core"></div>
+
+    <div id="deck-advice"></div>
+  </section>
+
+  <!-- ============================================ 5. 版本 / 赛制 -->
+  <section class="section" id="sec-regulation">
+    <div class="sec-head">
+      <span class="sec-tag">05</span>
+      <h2 class="sec-title">版本 / 赛制</h2>
+    </div>
+    <div class="reg-grid" id="reg-grid"></div>
+    <h3 class="panel-title" style="margin:26px 0 12px;">最新赛制调整公告</h3>
+    <div class="timeline" id="reg-news"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="f-title">数据来源</div>
+    <div class="src-list" id="src-list"></div>
+    <div class="copy">
+      本站为信息聚合工具，所有数据与图片版权归宝可梦（上海）玩具有限公司及任天堂、Creatures、GAME FREAK 所有。<br>
+      Pokémon. ©Nintendo/Creatures Inc./GAME FREAK inc. 「宝可梦」与「Pokémon」均为任天堂商标。
+    </div>
+  </div>
+</footer>
+
+<!-- 牌组详情弹窗（点击环境牌组榜中的卡组名打开） -->
+<div class="modal-mask" id="deck-modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <button class="modal-close" id="deck-modal-close" aria-label="关闭">×</button>
+    <div class="modal-body" id="deck-modal-body"></div>
+  </div>
+</div>
+
+<!-- 道馆详情弹窗（点击道馆卡片打开） -->
+<div class="modal-mask" id="gym-modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <button class="modal-close" id="gym-modal-close" aria-label="关闭">×</button>
+    <div class="modal-body" id="gym-modal-body"></div>
+  </div>
+</div>
+
+<script src="data/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
