@@ -65,3 +65,38 @@ generated_at 校验: 2026-10-05 10:46:04 (符合本次执行时刻)
   [OK ] 官方道馆: 30
   [OK ] 赛制标记: 4
 -------- 结束 --------
+
+================ 2026-10-05 11:21 (Asia/Shanghai) ================
+[FULL-REFRESH] 判定：非计划执行（实际 周一 11:21 vs 计划 周三 15:00，偏差 > 30 分钟，人为提前触发）
+[FULL-REFRESH] 刷新范围：五栏目全量重抓（不加 --dry-run / --no-image，含图片同步刷新）
+[FULL-REFRESH] 校验：generated_at=2026-10-05 11:24:46（符合本次执行窗口）；五栏目非空
+[FULL-REFRESH] 图片：256 → 256（无新增、无清理，本地缓存命中）
+[FULL-REFRESH] 非致命告警 6 条：bilibili 视频页 412 + 5 个 goods 二级页 404
+[FULL-REFRESH] 本次结果：内容与上次一致，仅刷新时间戳；无空栏目
+-------- 开始 --------
+  [!] 抓取失败 https://www.bilibili.com/video/BV1xg4y1s7fw/: HTTP Error 412: Precondition Failed
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/home-office/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/clothing-accesoies/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/stationaries/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/food/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/goods-other/p/2: HTTP Error 404: Not Found
+[1/4] 抓取商品一览 ...
+      -> 40 条商品
+[2/6] 抓取卡牌资讯 ...
+[3/6] 过滤已结束的赛事活动 ...
+      -> 资讯 160 条 | 进行中赛事活动 8（原 51） | 即将开店 1 | 赛制公告 2（取最新 1 条）
+[4/6] 抓取官方赛事结果（冠军卡组）...
+      -> 赛事结果公告 6 条（含卡组 1 条） | 统计到卡组 4 套
+[5/6] 抓取官方店铺 ...
+      -> 官方卡牌道馆 30 家
+[6/6] 抓取周边新品与赛制说明 ...
+      -> 周边新品 4 条 | 标准赛制标记 ['G', 'H', 'I', 'J'] | 更新日期 2026-09-16
+      -> 近 90 天内商品 31 件（未发售 2 件）
+
+已写入 C:\GIH\pokemon-tcg-cn\data\data.json
+已写入 C:\GIH\pokemon-tcg-cn\data\data.js
+  [OK ] 商品: 31
+  [OK ] 赛事活动: 8
+  [OK ] 官方道馆: 30
+  [OK ] 赛制标记: 4
+-------- 结束 --------
