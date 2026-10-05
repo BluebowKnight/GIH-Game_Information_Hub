@@ -887,6 +887,8 @@ def fetch_shops(max_pages=10):
             gym["grand_gift"] = excl.get("grand_gift", "")
             gym["grand_gift_note"] = excl.get("gift_note", "")
             gym["opened"] = excl.get("opened", "")
+        # 能出现在官网店铺页的，都是已营业的道馆
+        gym["not_yet_open"] = False
         gyms.append(gym)
 
     # --- 线上官方渠道 ---
@@ -915,7 +917,78 @@ def fetch_shops(max_pages=10):
             "image": localize_image(ig.group(1), "card") if ig else "",
         }
 
+    # --- 底稿一致性自检 ---------------------------------------------------
+    # 官网店铺页只收录「已营业」的道馆，因此凡出现在本列表的道馆，
+    # 其人工底稿 gym_exclusives.json 里的 opened 必须是具体日期。
+    # 若仍是「计划/预计/尚未」等占位值，说明底稿过期；若根本没有条目，
+    # 说明新道馆漏登。两种情况都会静默上线出问题，这里主动告警。
+    _date_re = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    _stale, _missing = [], []
+    for g in gyms:
+        _mascot = extract_mascot(g["name"])
+        if _mascot not in GYM_EXCL_ENTRIES:
+            _missing.append(g["name"])
+        elif not _date_re.match(str(g.get("opened", ""))):
+            _stale.append((g["name"], g.get("opened", "") or "空"))
+    if _stale:
+        print("  [STALE-DRAFT] 以下道馆已出现在官网店铺页（即已开业），但 "
+              "gym_exclusives.json 的开业日期不是具体日期（疑似占位/过期），请人工更新：")
+        for _nm, _op in _stale:
+            print(f"      - {_nm}（opened = {_op}）")
+    if _missing:
+        print("  [DRAFT-MISSING] 以下道馆已出现在官网店铺页，但 gym_exclusives.json "
+              "尚未收录（开业日期/开业特典缺失），请人工补充：")
+        for _nm in _missing:
+            print(f"      - {_nm}")
+
+    # 反向自检：底稿标着「尚未开业」（not_yet_open），但官网店铺页已收录它，
+    # 说明该标记已过期（店已开业），页面会一直标注「尚未开业」造成误导。
+    _open_mascots = {extract_mascot(g["name"]) for g in gyms}
+    _flag = [(v.get("gym", ""), m) for m, v in GYM_EXCL_ENTRIES.items()
+             if v.get("not_yet_open") and m in _open_mascots]
+    if _flag:
+        print("  [STALE-FLAG] 以下道馆在 gym_exclusives.json 中仍标记 not_yet_open"
+              "（尚未开业），但已出现在官网店铺页（即已开业），请人工把该标记改为 false：")
+        for _gym, _m in _flag:
+            print(f"      - {_gym}（{_m}）")
+
     return {"gyms": gyms, "online": online, "popup": popup}
+
+
+def build_upcoming_gyms(open_gyms, news_items):
+    """按底稿补齐「已公布开业日期、但尚未开业」的道馆。
+
+    官网店铺页只收录已营业的道馆，因此这类道馆（如 2026-10-13 开业的武汉 江汉）
+    不会出现在抓取结果里。这里依据人工底稿 gym_exclusives.json 中
+    not_yet_open = true 的条目补进列表，并保留 not_yet_open 标记供页面标注
+    「尚未开业」。条目一旦出现在官网店铺页，就不再补（以官网数据为准）。
+    """
+    open_mascots = {extract_mascot(g["name"]) for g in open_gyms}
+    soon = []
+    for mascot, excl in GYM_EXCL_ENTRIES.items():
+        if not excl.get("not_yet_open") or mascot in open_mascots:
+            continue
+        city = (excl.get("gym") or "").split()[0] if excl.get("gym") else ""
+        # 官网店铺页还没有它，图片先借用「即将开店」公告里的配图（已本地化）
+        img = ""
+        for n in news_items or []:
+            t = n.get("title", "")
+            if mascot in t or (city and city in t):
+                img = n.get("image", "")
+                break
+        soon.append({
+            "name": f"宝可梦官方卡牌道馆-{excl.get('gym', '')}（{mascot}）",
+            "image": img,
+            "hours": excl.get("hours", ""),
+            "closed": "以设施的休息日为准",
+            "address": excl.get("address", ""),
+            "exclusives": GYM_COMMON_EXCLUSIVES,
+            "grand_gift": excl.get("grand_gift", ""),
+            "grand_gift_note": excl.get("gift_note", ""),
+            "opened": excl.get("opened", ""),
+            "not_yet_open": True,
+        })
+    return soon
 
 
 # ----------------------------------------------------------------------------
@@ -1025,7 +1098,14 @@ def build():
 
     print("[5/6] 抓取官方店铺 ...")
     shops = fetch_shops()
-    print(f"      -> 官方卡牌道馆 {len(shops['gyms'])} 家")
+    open_gyms = shops["gyms"]
+    # 尚未开业（官方已公布开业日期）的道馆：官网店铺页不收录，按人工底稿补齐，
+    # 排在列表最前，页面会照常显示具体开业日期并标注「尚未开业」
+    soon_gyms = build_upcoming_gyms(open_gyms, soon_open)
+    gyms_all = soon_gyms + open_gyms
+    print(f"      -> 官方卡牌道馆 {len(open_gyms)} 家（已营业）"
+          + (f" | 尚未开业 {len(soon_gyms)} 家：" +
+             "、".join(g["name"] for g in soon_gyms) if soon_gyms else ""))
 
     print("[6/6] 抓取周边新品与赛制说明 ...")
     goods_news = fetch_goods_news()
@@ -1071,7 +1151,7 @@ def build():
         "product_news": [n for n in news if (n["category_raw"] or "").lower() == "product"],
         "events": events,
         "shops": {
-            "gyms": shops["gyms"],
+            "gyms": gyms_all,      # 含「尚未开业」的预开业道馆（not_yet_open = true）
             "news": soon_open,     # 仅「即将开店」预告
         },
         "decks": {

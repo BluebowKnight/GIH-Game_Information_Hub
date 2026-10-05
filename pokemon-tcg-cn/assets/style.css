@@ -573,6 +573,8 @@ img { max-width: 100%; display: block; }
 
 .shop-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
 .shop-card.clickable { cursor: pointer; }
+/* 尚未开业的道馆：虚线边框 + 徽标，明确区分「已营业」与「已公布开业日期」 */
+.shop-card.is-soon { border: 1px dashed #f0c36d; }
 
 .shop-thumb { flex: 0 0 78px; height: 78px; border-radius: 10px; overflow: hidden; background: #f4f6fa; }
 .shop-thumb img { width: 100%; height: 100%; object-fit: cover; }
@@ -581,6 +583,19 @@ img { max-width: 100%; display: block; }
 .shop-name { font-size: 14px; font-weight: 700; line-height: 1.45; margin-bottom: 5px; }
 .shop-row { font-size: 12.5px; color: var(--ink-2); display: flex; gap: 6px; margin-bottom: 2px; }
 .shop-row .k { color: var(--ink-3); flex: 0 0 46px; }
+.shop-row b { color: #c47b0a; font-weight: 700; }
+
+.gym-soon {
+  display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px;
+  font-size: 11px; font-weight: 700; line-height: 1.7; vertical-align: 1px; white-space: nowrap;
+  color: #a35b00; background: #fff5e6; border: 1px solid #ffd8a8;
+}
+.gym-soon-tip {
+  margin: 8px 0 12px; padding: 9px 12px; border-radius: 10px;
+  font-size: 12.5px; line-height: 1.65; color: #a35b00;
+  background: #fff8ec; border: 1px solid #ffe0b2;
+}
+.gym-soon-tip b { color: #c47b0a; }
 
 .search-row { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
 

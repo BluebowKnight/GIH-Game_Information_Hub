@@ -57,12 +57,14 @@
         String(new Date(next).getDate()).padStart(2, "0")
       : "下周一";
 
+    var gc = gymCounts();
     $("meta-bar").innerHTML = [
       '<span class="meta-chip"><span class="dot"></span>数据更新：<b>' +
         esc(m.generated_at || "-") + "</b></span>",
       '<span class="meta-chip">下次更新：<b>' + esc(nextStr) + "</b></span>",
       '<span class="meta-chip">未发售新品 <b>' + visibleProductCount() + "</b> 条</span>",
-      '<span class="meta-chip">官方道馆 <b>' + ((DATA.shops && DATA.shops.gyms || []).length) + "</b> 家</span>",
+      '<span class="meta-chip">官方道馆 <b>' + gc.open + "</b> 家</span>",
+      (gc.soon ? '<span class="meta-chip">待开业 <b>' + gc.soon + "</b> 家</span>" : ""),
       '<span class="meta-chip">资讯 <b>' + countNews() + "</b> 条</span>"
     ].join("");
 
@@ -73,7 +75,7 @@
 
     $("n-products").textContent = visibleProductCount();
     $("n-events").textContent = (DATA.events || []).length;
-    $("n-shops").textContent = ((DATA.shops && DATA.shops.gyms) || []).length;
+    $("n-shops").textContent = gymCounts().open;
     $("n-decks").textContent = ((DATA.decks && DATA.decks.meta) || []).length;
     $("n-regulation").textContent = ((DATA.regulation && DATA.regulation.standard &&
       DATA.regulation.standard.marks) || []).join("·") || "—";
@@ -85,6 +87,13 @@
     s += ((DATA.shops && DATA.shops.news) || []).length;
     s += ((DATA.decks && DATA.decks.news) || []).length;
     return s;
+  }
+
+  /* 道馆计数：列表里含「尚未开业」的预开业道馆（not_yet_open），分开统计避免误读 */
+  function gymCounts() {
+    var gs = (DATA.shops && DATA.shops.gyms) || [];
+    var soon = gs.filter(function (g) { return g.not_yet_open; }).length;
+    return { total: gs.length, open: gs.length - soon, soon: soon };
   }
 
   /* 已发售商品默认不再展示，这里统计未发售新品的数量 */
@@ -323,9 +332,13 @@
     var sh = DATA.shops || {};
 
     // 道馆
-    var gyms = sh.gyms || [];
     var gt = $("gym-total");
-    if (gt) gt.textContent = gyms.length ? "共 " + gyms.length + " 家" : "";
+    if (gt) {
+      var gc = gymCounts();
+      gt.textContent = gc.total
+        ? "共 " + gc.open + " 家" + (gc.soon ? " · 待开业 " + gc.soon + " 家" : "")
+        : "";
+    }
     drawGyms("");
 
     var input = $("shop-search");
@@ -373,7 +386,8 @@
     var gyms = (DATA.shops && DATA.shops.gyms) || [];
     var view = kw
       ? gyms.filter(function (g) {
-          return (g.name + g.address + g.hours).indexOf(kw) >= 0;
+          return (g.name + " " + (g.address || "") + " " + (g.hours || "") + " " +
+            (g.opened || "") + (g.not_yet_open ? "尚未开业" : "")).indexOf(kw) >= 0;
         })
       : gyms;
 
@@ -387,13 +401,19 @@
     var folding = !kw && !gymExpanded;
 
     $("shop-grid").innerHTML = view.map(function (g) {
-      return '<div class="shop-card clickable" data-gym="' + gyms.indexOf(g) + '">' +
+      return '<div class="shop-card clickable' + (g.not_yet_open ? " is-soon" : "") +
+        '" data-gym="' + gyms.indexOf(g) + '">' +
         '<div class="shop-thumb">' + imgOrPlaceholder(g.image, g.name) + "</div>" +
         '<div class="shop-info">' +
-          '<div class="shop-name">' + esc(g.name) + "</div>" +
+          '<div class="shop-name">' + esc(g.name) +
+            (g.not_yet_open ? '<span class="gym-soon">尚未开业</span>' : "") + "</div>" +
+          (g.opened
+            ? '<div class="shop-row"><span class="k">开业</span><span>' + esc(g.opened) +
+              (g.not_yet_open ? "<b>（尚未开业）</b>" : "") + "</span></div>"
+            : "") +
           (g.hours ? '<div class="shop-row"><span class="k">营业</span><span>' + esc(g.hours) + "</span></div>" : "") +
           (g.address ? '<div class="shop-row"><span class="k">地址</span><span>' + esc(g.address) + "</span></div>" : "") +
-          (g.grand_gift ? '<div class="shop-row"><span class="k">开业</span><span>' + esc(g.grand_gift) + "</span></div>" : "") +
+          (g.grand_gift ? '<div class="shop-row"><span class="k">特典</span><span>' + esc(g.grand_gift) + "</span></div>" : "") +
         "</div></div>";
     }).join("");
 
@@ -685,14 +705,24 @@
   /* ------------------------------------------- 道馆详情弹窗（限定商品） */
   function openGymModal(g) {
     if (!g) return;
-    var html = '<h3 class="modal-title">' + esc(g.name) + "</h3>";
+    var html = '<h3 class="modal-title">' + esc(g.name) +
+      (g.not_yet_open ? '<span class="gym-soon">尚未开业</span>' : "") + "</h3>";
+
+    // 尚未开业的道馆（官方已公布开业日期）：明确提示，避免误读为已营业
+    if (g.not_yet_open) {
+      html += '<div class="gym-soon-tip">该道馆尚未开业，官方公布的开幕日期为 <b>' +
+        esc(g.opened || "待定") + "</b>。以下信息以官方公告为准，实际以现场为准。</div>";
+    }
 
     // 基本信息
     var info = "";
     if (g.hours) info += '<div class="kv"><span class="k">营业</span><span class="v">' + esc(g.hours) + "</span></div>";
     if (g.closed) info += '<div class="kv"><span class="k">休息日</span><span class="v">' + esc(g.closed) + "</span></div>";
     if (g.address) info += '<div class="kv"><span class="k">地址</span><span class="v">' + esc(g.address) + "</span></div>";
-    if (g.opened) info += '<div class="kv"><span class="k">开业</span><span class="v">' + esc(g.opened) + "</span></div>";
+    if (g.opened) {
+      info += '<div class="kv"><span class="k">开业</span><span class="v">' + esc(g.opened) +
+        (g.not_yet_open ? "（尚未开业）" : "") + "</span></div>";
+    }
     if (info) html += '<div class="gym-modal-info">' + info + "</div>";
 
     // 通用限定商品
