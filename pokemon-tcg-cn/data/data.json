@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-05 13:33:55",
-    "generated_date": "2026-10-05",
+    "generated_at": "2026-10-07 15:08:07",
+    "generated_date": "2026-10-07",
     "timezone": "Asia/Shanghai",
     "sources": [
       {
@@ -832,17 +832,6 @@
       "end_date": "2026-12-31",
       "summary": "完成小程序「白昼任务」「黑夜任务」可获得特典卡「比克提尼」与「捷拉奥拉」兑换券各 1 张：10 月与 11 月指定时段内各累计参加 5 场，并打卡 3 个不同主办方的道馆活动。",
       "status": "即将开始"
-    },
-    {
-      "title": "“RED LAND2026冒险启程杯”即将开启！",
-      "url": "https://www.pokemon.cn/tcg/event/23879.html",
-      "image": "assets/img/card_5c061434dc6011f4.webp",
-      "category_raw": "Event",
-      "date": "2026-09-16",
-      "start_date": "2026-09-17",
-      "end_date": "2026-10-05",
-      "summary": "宝可梦卡牌 × RED LAND2026 联名赛事：9/27 预赛（上海 / 杭州 / 温州 / 宁波 / 南京 / 合肥道馆）→ 10/3–10/5 特别赛（RED LAND 现场，小红书官方号直播）；预赛优胜晋级特别赛，现场另有随机赠票抽选。",
-      "status": "进行中"
     },
     {
       "title": "宝可梦卡牌城市赛2026年第四赛季即将开启",
@@ -2175,7 +2164,7 @@
           ]
         }
       ],
-      "raw": "开放赛制\n更新日期：2026年9月16日\n关于开放赛制\n与标准赛制不同，开放赛制允许使用早期贩售的卡牌，可使用的卡牌种类丰富，会带来不同的游戏感受。\n可在开放赛制中使用的卡牌\n“太阳&月亮”系列的卡牌\n“剑&盾”系列的卡牌\n“朱&紫”系列的卡牌\n商品编号为30thC且带有赛制标记的卡牌\n商品编号为30thDC的卡牌\n商品编号为PROMO且卡牌编号为XXX/30th-P的卡牌\n各种基本能量卡\n以下卡牌无法加入卡组中\n玛夏多（特性：破罐破摔）\n阿塞萝拉\n全满药\n※即便卡牌的卡面或者稀有度不同，只要卡牌、宝可梦的特性、招式名称相同，该卡牌便无法使用。\n※我们会持续关注并检视宝可梦卡牌的对战环境，当前指定的无法使用的卡牌将来有可能恢复使用，而其他卡牌也有可能变成不能使用的卡牌。\n关于过去系列的卡牌\n若要将“太阳&月亮”系列或“剑&盾”系列收录的以下卡牌加入卡组，卡牌上的描述按最新卡牌的描述为准。\n宝可梦捕捉器\n宝可梦交替\n宝可装置3.0\n宝可梦中心的姐姐\n博士的研究\n捕虫少年\n裁判\n超级球\n巢穴球\n反击捕捉器\n反击增幅器\n粉碎之锤\n改造之锤\n高级球\n活力头带\n讲究腰带\n精灵球\n老大的指令\n离洞绳\n谜之化石\n模仿少女\n能量回收\n能量签\n能量输送\n能量再利用\n能量转移\n朋友手册\n千金小姐\n伤药\n神奇糖果\n西餐厨师\n学习装置\n各种基本能量卡\n※卡牌名称为“博士的研究”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※卡牌名称为“老大的指令”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※于开放赛制中可使用的特别的卡牌可以点击这里查看。 \n              官方账号\n                      官方账号\n使用条款\n隐私政策\n儿童隐私政策\n©Pokémon. ©Nintendo/Creatures Inc./GAME FREAK inc.\n“Pokémon”和“宝可梦”均为任天堂商标。\n沪ICP备2020029152号-2\n沪公网安备 31010502006288号\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/pokemon/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://www.pokemon.cn/wp-includes/js/wp-emoji-release.min.js?ver=6.9.9\"}}\n/* e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf(){i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});\n//# sourceURL=https://www.pokemon.cn/wp-includes/js/wp-emoji-loader.min.js\n/* ]]> */"
+      "raw": "开放赛制\n更新日期：2026年9月16日\n关于开放赛制\n与标准赛制不同，开放赛制允许使用早期贩售的卡牌，可使用的卡牌种类丰富，会带来不同的游戏感受。\n可在开放赛制中使用的卡牌\n“太阳&月亮”系列的卡牌\n“剑&盾”系列的卡牌\n“朱&紫”系列的卡牌\n商品编号为30thC且带有赛制标记的卡牌\n商品编号为30thDC的卡牌\n商品编号为PROMO且卡牌编号为XXX/30th-P的卡牌\n各种基本能量卡\n以下卡牌无法加入卡组中\n玛夏多（特性：破罐破摔）\n阿塞萝拉\n全满药\n※即便卡牌的卡面或者稀有度不同，只要卡牌、宝可梦的特性、招式名称相同，该卡牌便无法使用。\n※我们会持续关注并检视宝可梦卡牌的对战环境，当前指定的无法使用的卡牌将来有可能恢复使用，而其他卡牌也有可能变成不能使用的卡牌。\n关于过去系列的卡牌\n若要将“太阳&月亮”系列或“剑&盾”系列收录的以下卡牌加入卡组，卡牌上的描述按最新卡牌的描述为准。\n宝可梦捕捉器\n宝可梦交替\n宝可装置3.0\n宝可梦中心的姐姐\n博士的研究\n捕虫少年\n裁判\n超级球\n巢穴球\n反击捕捉器\n反击增幅器\n粉碎之锤\n改造之锤\n高级球\n活力头带\n讲究腰带\n精灵球\n老大的指令\n离洞绳\n谜之化石\n模仿少女\n能量回收\n能量签\n能量输送\n能量再利用\n能量转移\n朋友手册\n千金小姐\n伤药\n神奇糖果\n西餐厨师\n学习装置\n各种基本能量卡\n※卡牌名称为“博士的研究”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※卡牌名称为“老大的指令”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※于开放赛制中可使用的特别的卡牌可以点击这里查看。 \n              官方账号\n                      官方账号\n使用条款\n隐私政策\n儿童隐私政策\n©Pokémon. ©Nintendo/Creatures Inc./GAME FREAK inc.\n“Pokémon”和“宝可梦”均为任天堂商标。\n沪ICP备2020029152号-2\n沪公网安备 31010502006288号\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/pokemon/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://www.pokemon.cn/wp-includes/js/wp-emoji-release.min.js?ver=6.9.10\"}}\n/* e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf(){i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});\n//# sourceURL=https://www.pokemon.cn/wp-includes/js/wp-emoji-loader.min.js\n/* ]]> */"
     },
     "news": [
       {
