@@ -173,3 +173,38 @@ generated_at = 2026-10-05 13:33:55（北京时间，落在本次执行窗口内�
   [OK ] 官方道馆: 31
   [OK ] 赛制标记: 4
 ====================================================================
+====================================================================
+================ 2026-10-07 15:00 (Asia/Shanghai) ================
+判定：计划内执行（实际 周三 15:00 vs 计划 周三 15:00，偏差 0 分钟）
+校验：generated_at=2026-10-07 15:08:07（符合本次执行窗口）；五栏目全部非空
+栏目：新品/上新 商品31件(未发售2)+周边新品4条+卡牌资讯33条 | 活动/赛事 7 项进行中 | 官方道馆 31 家(已营业30+尚未开业1) | 环境牌组 分析底稿9项+赛事结果6条 | 版本/赛制 标记 G·H·I·J (更新日2026-09-16)
+变更：赛事活动 8→7（「RED LAND2026冒险启程杯」2026-10-05收官下线）；图片 256→256 无变化
+底稿告警：无（未出现 [STALE-DRAFT] / [DRAFT-MISSING] / [STALE-FLAG]）
+非致命告警 6 条：pokemon.cn event/p/29 读取超时；bilibili 视频页 412；5 个 goods 二级页 404（均为已知非致命）
+脚本输出：
+  [!] 抓取失败 https://www.pokemon.cn/category/tcg/event/p/29: The read operation timed out
+  [!] 抓取失败 https://www.bilibili.com/video/BV1xg4y1s7fw/: HTTP Error 412: Precondition Failed
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/home-office/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/clothing-accesoies/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/stationaries/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/food/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/goods-other/p/2: HTTP Error 404: Not Found
+[1/4] 抓取商品一览 ...
+      -> 40 条商品
+[2/6] 抓取卡牌资讯 ...
+[3/6] 过滤已结束的赛事活动 ...
+      -> 资讯 160 条 | 进行中赛事活动 7（原 51） | 即将开店 1 | 赛制公告 2（取最新 1 条）
+[4/6] 抓取官方赛事结果（冠军卡组）...
+      -> 赛事结果公告 6 条（含卡组 1 条） | 统计到卡组 4 套
+[5/6] 抓取官方店铺 ...
+      -> 官方卡牌道馆 30 家（已营业） | 尚未开业 1 家：宝可梦官方卡牌道馆-武汉 江汉（大嘴娃）
+[6/6] 抓取周边新品与赛制说明 ...
+      -> 周边新品 4 条 | 标准赛制标记 ['G', 'H', 'I', 'J'] | 更新日期 2026-09-16
+      -> 近 90 天内商品 31 件（未发售 2 件）
+
+已写入 C:\GIH\pokemon-tcg-cn\data\data.json
+已写入 C:\GIH\pokemon-tcg-cn\data\data.js
+  [OK ] 商品: 31
+  [OK ] 赛事活动: 7
+  [OK ] 官方道馆: 31
+  [OK ] 赛制标记: 4
