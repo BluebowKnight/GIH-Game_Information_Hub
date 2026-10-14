@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-07 15:08:07",
-    "generated_date": "2026-10-07",
+    "generated_at": "2026-10-14 15:07:23",
+    "generated_date": "2026-10-14",
     "timezone": "Asia/Shanghai",
     "sources": [
       {
@@ -405,120 +405,6 @@
       "image": "assets/img/product_69d1d4e5fe3b47b6.webp",
       "url": "https://www.pokemon.cn/tcg/product/23080.html",
       "release_status": "released"
-    },
-    {
-      "name": "补充包 共逐荣光",
-      "category": "补充包",
-      "release_raw": "2026年7月16日10时起",
-      "release_date": "2026-07-16",
-      "release_ts": 1784131200,
-      "price": "5张装：10元/包（包含1张闪卡） 20张装：50元/包（包含6张闪卡）",
-      "content": "※卡牌均为随机封入。\n※仅本商品无法对战，请与其他同售商品组合后对战。",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [],
-      "image": "assets/img/product_bc219ade0d5ca781.webp",
-      "url": "https://www.pokemon.cn/tcg/product/20012.html",
-      "release_status": "released"
-    },
-    {
-      "name": "大师战略卡组构筑套装 猛雷鼓ex",
-      "category": "构筑卡组",
-      "release_raw": "2026年7月16日10时起",
-      "release_date": "2026-07-16",
-      "release_ts": 1784131200,
-      "price": "390元",
-      "content": "1. 猛雷鼓ex卡组（60张） 1套\n2. 猛雷鼓ex卡组改造包（15张） 1包\n3. 共逐荣光 补充包（20张） 4包\n4. 随机对战艺术卡套（64张） 1套（全8种，每种等比生产，随机封入1种）\n5. 猛雷鼓主题卡组收纳盒（含2块隔板） 1个\n6. 硬币骰子 1个\n7. 伤害指示物骰子 6个\n8. 灼伤标记 1个\n9. 中毒标记 1个\n10. 猛雷鼓ex卡组基本运营战略 1张\n11. 猛雷鼓ex卡组改造指南 1张",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [
-        "卡套",
-        "收纳盒",
-        "硬币"
-      ],
-      "image": "assets/img/product_a702b8d659cd3a2b.webp",
-      "url": "https://www.pokemon.cn/tcg/product/20828.html",
-      "release_status": "released"
-    },
-    {
-      "name": "大师战略卡组构筑套装 多龙巴鲁托ex",
-      "category": "构筑卡组",
-      "release_raw": "2026年7月16日10时起",
-      "release_date": "2026-07-16",
-      "release_ts": 1784131200,
-      "price": "390元",
-      "content": "1. 多龙巴鲁托ex卡组（60张） 1套\n2. 多龙巴鲁托ex卡组改造包（15张） 1包\n3. 共逐荣光 补充包（20张） 4包\n4. 随机对战艺术卡套（64张） 1套（全8种，每种等比生产，随机封入1种）\n5. 多龙巴鲁托主题卡组收纳盒（含2块隔板） 1个\n6. 硬币骰子 1个\n7. 伤害指示物骰子 6个\n8. 灼伤标记 1个\n9. 中毒标记 1个\n10. 多龙巴鲁托ex卡组基本运营战略 1张\n11. 多龙巴鲁托ex卡组改造指南 1张",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [
-        "卡套",
-        "收纳盒",
-        "硬币"
-      ],
-      "image": "assets/img/product_d44663e8b829265a.webp",
-      "url": "https://www.pokemon.cn/tcg/product/20828.html",
-      "release_status": "released"
-    },
-    {
-      "name": "大师战略卡组构筑套装 赛富豪ex",
-      "category": "构筑卡组",
-      "release_raw": "2026年7月16日10时起",
-      "release_date": "2026-07-16",
-      "release_ts": 1784131200,
-      "price": "390元",
-      "content": "1. 赛富豪ex卡组（60张） 1套\n2. 赛富豪ex卡组改造包（15张） 1包\n3. 共逐荣光 补充包（20张） 4包\n4. 随机对战艺术卡套（64张） 1套（全8种，每种等比生产，随机封入1种）\n5. 赛富豪主题卡组收纳盒（含2块隔板） 1个\n6. 硬币骰子 1个\n7. 伤害指示物骰子 6个\n8. 灼伤标记 1个\n9. 中毒标记 1个\n10. 赛富豪ex卡组基本运营战略 1张\n11. 赛富豪ex卡组改造指南 1张",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [
-        "卡套",
-        "收纳盒",
-        "硬币"
-      ],
-      "image": "assets/img/product_1f6d95b9e2731eb4.webp",
-      "url": "https://www.pokemon.cn/tcg/product/20828.html",
-      "release_status": "released"
-    },
-    {
-      "name": "宝可梦卡牌 嗨皮卡组 快龙&超梦&喷火驼&来悲粗茶",
-      "category": "构筑卡组",
-      "release_raw": "2026年7月16日10时起",
-      "release_date": "2026-07-16",
-      "release_ts": 1784131200,
-      "price": "20元",
-      "content": "卡组（60张） 1套\n※快龙ex、超梦ex、喷火驼、来悲粗茶卡组随机封入1组。有机会出现平卡卡组与闪卡卡组，平卡卡组与闪卡卡组的卡牌内容相同，加工不同。其中闪卡卡组的出现概率1.6%，平卡卡组与闪卡卡组内每种卡组等比生产。\n卡组玩法介绍 1张\n玩家入门指南 1张\n伤害指示物 1板",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [],
-      "image": "assets/img/product_ec24e30536a6f79f.webp",
-      "url": "https://www.pokemon.cn/tcg/product/22630.html",
-      "release_status": "released"
-    },
-    {
-      "name": "宝可梦卡牌 嗨皮组合 快龙&超梦&喷火驼&来悲粗茶",
-      "category": "构筑卡组",
-      "release_raw": "2026年7月16日10时起",
-      "release_date": "2026-07-16",
-      "release_ts": 1784131200,
-      "price": "88元",
-      "content": "快龙ex卡组（60张） 1套\n超梦ex卡组（60张） 1套\n喷火驼卡组（60张） 1套\n来悲粗茶卡组（60张） 1套\n卡组玩法介绍 4张\n嗨皮包（2张）7包\n改造包（10张） 1包\n奖赏包（1张） 1包\n玩家入门指南 1张\n玩法规则说明 1张\n对战指南 2张\n伤害指示物 4板\n硬币 2个",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [
-        "硬币"
-      ],
-      "image": "assets/img/product_331e6711f8216c65.webp",
-      "url": "https://www.pokemon.cn/tcg/product/22630.html",
-      "release_status": "released"
-    },
-    {
-      "name": "宝可梦集换式卡牌游戏硬币收藏册 共逐荣光 超梦款",
-      "category": "周边道具",
-      "release_raw": "2026年7月16日10时起",
-      "release_date": "2026-07-16",
-      "release_ts": 1784131200,
-      "price": "40元/册",
-      "content": "商品内容 宝可梦集换式卡牌游戏硬币收藏册 1册\n商品材质 纸、乙烯-醋酸乙烯酯共聚物、内含磁铁",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [
-        "硬币"
-      ],
-      "image": "assets/img/product_45d7be93419e5764.webp",
-      "url": "https://www.pokemon.cn/tcg/product/20012.html",
-      "release_status": "released"
     }
   ],
   "goods_news": [
@@ -790,6 +676,28 @@
   ],
   "events": [
     {
+      "title": "“2026宝可梦卡牌高级赛秋季场”购物小站相关说明",
+      "url": "https://www.pokemon.cn/tcg/event/24180.html",
+      "image": "assets/img/card_7afe65c56931d830.webp",
+      "category_raw": "Event",
+      "date": "2026-10-14",
+      "start_date": "2026-10-24",
+      "end_date": "2026-11-08",
+      "summary": "2026-10-14 2026宝可梦卡牌高级赛秋季场将于10月24日至11月8日期间举办。 我们为本次高级赛准备了特别商品，并将在各比赛会场的购物小站、宝可梦官方旗舰店及宝可梦官方卡牌道馆售卖。",
+      "status": "即将开始"
+    },
+    {
+      "title": "一起嗨皮起来吧！全新嗨皮组合登场！和训练家伙伴们，一起嗨皮起来吧！",
+      "url": "https://www.pokemon.cn/tcg/event/24146.html",
+      "image": "assets/img/card_3e9e1290d052b8da.webp",
+      "category_raw": "Event",
+      "date": "2026-10-13",
+      "start_date": "2026-10-16",
+      "end_date": "2026-12-15",
+      "summary": "· 每场比赛第一名的训练家将获得奖赏包1包和嗨皮包3包。 · 获得第二名的训练家将获得嗨皮包2包。 · 获得第三名和第四名的训练家将获得嗨皮包1包。",
+      "status": "即将开始"
+    },
+    {
       "title": "宝可梦明耀之星“玩乐站冲榜赛”欢乐开启！",
       "url": "https://www.pokemon.cn/tcg/campaign/24088.html",
       "image": "assets/img/card_c867fa048dd964a9.webp",
@@ -869,24 +777,6 @@
   ],
   "shops": {
     "gyms": [
-      {
-        "name": "宝可梦官方卡牌道馆-武汉 江汉（大嘴娃）",
-        "image": "assets/img/card_4448aa1bc0fdb693.webp",
-        "hours": "周一至周日 10:00~22:00",
-        "closed": "以设施的休息日为准",
-        "address": "武汉市江汉区中山大道与前进二路交叉口楚宝天地 M101+M201",
-        "exclusives": [
-          "冰箱贴",
-          "钥匙扣",
-          "卡组收纳盒",
-          "艺术卡套",
-          "环保购物袋（L / M / S 三个型号）"
-        ],
-        "grand_gift": "特典卡「大嘴娃」",
-        "grand_gift_note": "开业活动期间（2026-10-13 ~ 2026-12-12）单次消费满 99 元可领取，限量 30000 张，先到先得",
-        "opened": "2026-10-13",
-        "not_yet_open": true
-      },
       {
         "name": "宝可梦官方卡牌道馆-北京 西红门（大岩蛇）",
         "image": "assets/img/shop_37dce128cc83f801.webp",
@@ -1410,6 +1300,24 @@
         "not_yet_open": false
       },
       {
+        "name": "宝可梦官方卡牌道馆-武汉 江汉（大嘴娃）",
+        "image": "assets/img/shop_54293d33c9925bce.webp",
+        "hours": "周一至周日 10:00~22:00",
+        "closed": "以设施的休息日为准",
+        "address": "湖北省武汉市江汉区中山大道与前进二路交叉口楚宝天地M101+M201",
+        "exclusives": [
+          "冰箱贴",
+          "钥匙扣",
+          "卡组收纳盒",
+          "艺术卡套",
+          "环保购物袋（L / M / S 三个型号）"
+        ],
+        "grand_gift": "特典卡「大嘴娃」",
+        "grand_gift_note": "开业活动期间（2026-10-13 ~ 2026-12-12）单次消费满 99 元可领取，限量 30000 张，先到先得",
+        "opened": "2026-10-13",
+        "not_yet_open": false
+      },
+      {
         "name": "宝可梦官方卡牌道馆-西安（雷吉铎拉戈）",
         "image": "assets/img/shop_c94d1c0fe6a43136.webp",
         "hours": "周一至周四 10:00～22:00，周五至周日 10:00 ~22:30",
@@ -1736,6 +1644,39 @@
     },
     "results": [
       {
+        "title": "“RED LAND2026冒险启程杯”冠军诞生！",
+        "url": "https://www.pokemon.cn/tcg/event/24132.html",
+        "image": "assets/img/card_5c061434dc6011f4.webp",
+        "date": "2026-10-12",
+        "event_name": "“RED LAND2026冒险启程杯”",
+        "entries": [
+          {
+            "site": "10月3日特别赛",
+            "rank": "冠军",
+            "player": "ZJU.Mike",
+            "deck": "玛俐的长毛巨魔ex"
+          },
+          {
+            "site": "10月4日特别赛",
+            "rank": "冠军",
+            "player": "卡噜噜-幻海",
+            "deck": "多龙巴鲁托ex"
+          },
+          {
+            "site": "10月5日特别赛",
+            "rank": "冠军",
+            "player": "恶喷糖手",
+            "deck": "玛俐的长毛巨魔ex"
+          }
+        ],
+        "has_deck": true,
+        "snippets": [
+          "10月3日特别赛冠军：ZJU.Mike（玛俐的长毛巨魔ex卡组）",
+          "10月4日特别赛冠军：卡噜噜-幻海（多龙巴鲁托ex卡组）",
+          "10月5日特别赛冠军：恶喷糖手（玛俐的长毛巨魔ex卡组）"
+        ]
+      },
+      {
         "title": "宝可梦卡牌城市赛2026年新春特别场冠军诞生！",
         "url": "https://www.pokemon.cn/tcg/event/20559.html",
         "image": "assets/img/card_c51515d14190276c.webp",
@@ -1940,7 +1881,40 @@
           "深圳站 冠军：超凡.骏弘兄（花疗环环卡组）"
         ],
         "last_date": "2026-01-28",
-        "share": 40.0
+        "share": 25.0
+      },
+      {
+        "deck": "玛俐的长毛巨魔ex",
+        "wins": 2,
+        "top": 0,
+        "events": [
+          {
+            "event": "“RED LAND2026冒险启程杯”",
+            "rank": "冠军",
+            "site": "10月3日特别赛",
+            "player": "ZJU.Mike",
+            "date": "2026-10-12",
+            "url": "https://www.pokemon.cn/tcg/event/24132.html"
+          },
+          {
+            "event": "“RED LAND2026冒险启程杯”",
+            "rank": "冠军",
+            "site": "10月5日特别赛",
+            "player": "恶喷糖手",
+            "date": "2026-10-12",
+            "url": "https://www.pokemon.cn/tcg/event/24132.html"
+          }
+        ],
+        "players": [
+          "ZJU.Mike",
+          "恶喷糖手"
+        ],
+        "quotes": [
+          "10月3日特别赛冠军：ZJU.Mike（玛俐的长毛巨魔ex卡组）",
+          "10月5日特别赛冠军：恶喷糖手（玛俐的长毛巨魔ex卡组）"
+        ],
+        "last_date": "2026-10-12",
+        "share": 25.0
       },
       {
         "deck": "古剑豹ex",
@@ -1963,7 +1937,7 @@
           "北京站 冠军：拾刻.半梦（古剑豹ex卡组）"
         ],
         "last_date": "2026-01-28",
-        "share": 20.0
+        "share": 12.5
       },
       {
         "deck": "铁臂膀ex",
@@ -1986,7 +1960,7 @@
           "杭州站 冠军：反抗军的骑兵（铁臂膀ex卡组）"
         ],
         "last_date": "2026-01-28",
-        "share": 20.0
+        "share": 12.5
       },
       {
         "deck": "密勒顿ex",
@@ -2009,7 +1983,30 @@
           "广州站 冠军：泡泡糖oo（密勒顿ex卡组）"
         ],
         "last_date": "2026-01-28",
-        "share": 20.0
+        "share": 12.5
+      },
+      {
+        "deck": "多龙巴鲁托ex",
+        "wins": 1,
+        "top": 0,
+        "events": [
+          {
+            "event": "“RED LAND2026冒险启程杯”",
+            "rank": "冠军",
+            "site": "10月4日特别赛",
+            "player": "卡噜噜-幻海",
+            "date": "2026-10-12",
+            "url": "https://www.pokemon.cn/tcg/event/24132.html"
+          }
+        ],
+        "players": [
+          "卡噜噜-幻海"
+        ],
+        "quotes": [
+          "10月4日特别赛冠军：卡噜噜-幻海（多龙巴鲁托ex卡组）"
+        ],
+        "last_date": "2026-10-12",
+        "share": 12.5
       }
     ],
     "news": []
