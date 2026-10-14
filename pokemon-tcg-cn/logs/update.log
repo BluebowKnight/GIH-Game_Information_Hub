@@ -208,3 +208,46 @@ generated_at = 2026-10-05 13:33:55（北京时间，落在本次执行窗口内�
   [OK ] 赛事活动: 7
   [OK ] 官方道馆: 31
   [OK ] 赛制标记: 4
+
+================================================================================
+[2026-10-14 15:01 Asia/Shanghai] 计划内执行（计划周三15:00，偏差 1 分钟）
+命令: scripts/fetch_data.py （venv 隔离 Python）
+耗时: 5m38s
+--------------------------------------------------------------------------------
+[!] 抓取失败 https://www.bilibili.com/video/BV1xg4y1s7fw/: HTTP Error 412: Precondition Failed
+[!] 抓取失败 https://www.pokemon.cn/category/goods/home-office/p/2: HTTP Error 404: Not Found
+[!] 抓取失败 https://www.pokemon.cn/category/goods/clothing-accesoies/p/2: HTTP Error 404: Not Found
+[!] 抓取失败 https://www.pokemon.cn/category/goods/stationaries/p/2: HTTP Error 404: Not Found
+[!] 抓取失败 https://www.pokemon.cn/category/goods/food/p/2: HTTP Error 404: Not Found
+[!] 抓取失败 https://www.pokemon.cn/category/goods/goods-other/p/2: HTTP Error 404: Not Found
+[1/4] 抓取商品一览 ...
+      -> 40 条商品
+[2/6] 抓取卡牌资讯 ...
+[3/6] 过滤已结束的赛事活动 ...
+      -> 资讯 160 条 | 进行中赛事活动 9（原 52） | 即将开店 1 | 赛制公告 2（取最新 1 条）
+[4/6] 抓取官方赛事结果（冠军卡组）...
+      -> 赛事结果公告 7 条（含卡组 2 条） | 统计到卡组 6 套
+[5/6] 抓取官方店铺 ...
+  [STALE-FLAG] 以下道馆在 gym_exclusives.json 中仍标记 not_yet_open（尚未开业），但已出现在官网店铺页（即已开业），请人工把该标记改为 false：
+      - 武汉 江汉（大嘴娃）
+      -> 官方卡牌道馆 31 家（已营业）
+[6/6] 抓取周边新品与赛制说明 ...
+      -> 周边新品 4 条 | 标准赛制标记 ['G', 'H', 'I', 'J'] | 更新日期 2026-09-16
+      -> 近 90 天内商品 24 件（未发售 2 件）
+
+已写入 C:\GIH\pokemon-tcg-cn\data\data.json
+已写入 C:\GIH\pokemon-tcg-cn\data\data.js
+  [OK ] 商品: 24
+  [OK ] 赛事活动: 9
+  [OK ] 官方道馆: 31
+  [OK ] 赛制标记: 4
+--------------------------------------------------------------------------------
+校验: generated_at=2026-10-14 15:07:23（本次执行，正常）
+五栏目: 新品/上新 products=24 + goods_news=4 + product_news=33 | 活动/赛事 events=9 |
+        官方卡牌道馆 gyms=31（已营业 31 / 尚未开业 0） | 环境牌组 results=7 meta=6 |
+        版本/赛制 standard G·H·I·J (2026-09-16) news=1
+变更: 商品 -7（90 天窗口自然下架）；赛事活动 +2；赛事结果公告 6→7（RED LAND2026 冒险启程杯冠军卡组）；
+      冠军卡组统计 4→6 套；图片新增 2 张（card_3e9e1290d052b8da.webp, shop_54293d33c9925bce.webp）
+底稿告警: [STALE-FLAG] 武汉 江汉（大嘴娃）→ 需人工将 gym_exclusives.json 的 not_yet_open 改为 false
+非致命告警: bilibili 412 + 5×goods 页 404（均为已知）
+================================================================================
