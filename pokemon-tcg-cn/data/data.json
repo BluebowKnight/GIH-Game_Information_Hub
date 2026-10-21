@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-14 15:07:23",
-    "generated_date": "2026-10-14",
+    "generated_at": "2026-10-21 15:21:19",
+    "generated_date": "2026-10-21",
     "timezone": "Asia/Shanghai",
     "sources": [
       {
@@ -24,6 +24,48 @@
   },
   "products": [
     {
+      "name": "补充包 黑雷奔流",
+      "category": "补充包",
+      "release_raw": "2026年11月6日10时起",
+      "release_date": "2026-11-06",
+      "release_ts": 1793894400,
+      "price": "5张装：10元/包（包含1张闪卡）20张装：50元/包（包含7张闪卡）",
+      "content": "※卡牌均为随机封入。\n※仅本商品无法对战，请与其他同售商品组合后对战。",
+      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
+      "bundled": [],
+      "image": "assets/img/product_9f43cc0f43f9def7.webp",
+      "url": "https://www.pokemon.cn/tcg/product/24290.html",
+      "release_status": "upcoming"
+    },
+    {
+      "name": "补充包 白焰迸涌",
+      "category": "补充包",
+      "release_raw": "2026年11月6日10时起",
+      "release_date": "2026-11-06",
+      "release_ts": 1793894400,
+      "price": "5张装：10元/包（包含1张闪卡） 20张装：50元/包（包含7张闪卡）",
+      "content": "※卡牌均为随机封入。\n※仅本商品无法对战，请与其他同售商品组合后对战。",
+      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
+      "bundled": [],
+      "image": "assets/img/product_cd2bd8c9f1f75739.webp",
+      "url": "https://www.pokemon.cn/tcg/product/24290.html",
+      "release_status": "upcoming"
+    },
+    {
+      "name": "Pokémon宝石包 VOL.7",
+      "category": "补充包",
+      "release_raw": "2026年11月6日10时起",
+      "release_date": "2026-11-06",
+      "release_ts": 1793894400,
+      "price": "10元/包",
+      "content": "内含4张闪卡",
+      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
+      "bundled": [],
+      "image": "assets/img/product_dac6855b355970d8.webp",
+      "url": "https://www.pokemon.cn/tcg/product/24281.html",
+      "release_status": "upcoming"
+    },
+    {
       "name": "宝可梦卡牌 嗨皮卡组 训练家的宝可梦",
       "category": "构筑卡组",
       "release_raw": "2026年10月16日10时起",
@@ -35,7 +77,7 @@
       "bundled": [],
       "image": "assets/img/product_089b93669bb1f488.webp",
       "url": "https://www.pokemon.cn/tcg/product/23939.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "宝可梦卡牌 嗨皮组合 训练家的宝可梦",
@@ -51,7 +93,7 @@
       ],
       "image": "assets/img/product_9e4f9c3641137f7f.webp",
       "url": "https://www.pokemon.cn/tcg/product/23939.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "宝可梦集换式卡牌游戏 补充包 30周年庆典",
@@ -443,6 +485,48 @@
   ],
   "product_news": [
     {
+      "title": "乘风破浪，寻梦逐宝！宝石包徽章套装第二弹即将发售",
+      "url": "https://www.pokemon.cn/tcg/product/22759.html",
+      "image": "assets/img/card_a7f1e92afa2baefc.webp",
+      "category_raw": "Product",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "神游奇想，歪头见宝！Pokémon宝石包第七弹即将发售",
+      "url": "https://www.pokemon.cn/tcg/product/24281.html",
+      "image": "assets/img/card_ae0c237569f036d3.webp",
+      "category_raw": "Product",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "黑白交汇，合众共乐！内含全新补充包“黑雷奔流”“白焰迸涌”的硬币套装及更多商品即将发售！",
+      "url": "https://www.pokemon.cn/tcg/product/21905.html",
+      "image": "assets/img/card_3e5e09b8b48c7f9b.webp",
+      "category_raw": "Product",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "能量奔涌，经典来临！内含黑白专题能量包的全新套装商品即将发售！",
+      "url": "https://www.pokemon.cn/tcg/product/22850.html",
+      "image": "assets/img/card_ebcb51ac4aebe9aa.webp",
+      "category_raw": "Product",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "黑白交汇，合众共乐！黑白专题 拼图冰箱贴套装即将发售",
+      "url": "https://www.pokemon.cn/tcg/product/23021.html",
+      "image": "assets/img/card_ca172c1d7c6008e6.webp",
+      "category_raw": "Product",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "黑白交汇，合众共乐！宝可梦卡牌全新补充包商品“黑雷奔流”“白焰迸涌”即将发售！",
+      "url": "https://www.pokemon.cn/tcg/product/24290.html",
+      "image": "assets/img/card_7c09173c00a33f47.webp",
+      "category_raw": "Product",
+      "date": "2026-10-16"
+    },
+    {
       "title": "一起嗨皮起来吧！宝可梦卡牌全新嗨皮组合即将发售",
       "url": "https://www.pokemon.cn/tcg/product/23939.html",
       "image": "assets/img/card_252905847f7ebd6a.webp",
@@ -651,30 +735,42 @@
       "image": "assets/img/card_068e9725be2294b4.webp",
       "category_raw": "Product",
       "date": "2026-02-27"
-    },
-    {
-      "title": "一路同行，此刻欢聚！30周年庆典最初的伙伴特别插画闪卡套装 Vol.1即将发售",
-      "url": "https://www.pokemon.cn/tcg/product/20725.html",
-      "image": "assets/img/card_99ec140fe432f483.webp",
-      "category_raw": "Product",
-      "date": "2026-02-09"
-    },
-    {
-      "title": "结伴共出发，玩转帕底亚！帕底亚训练家主题套装商品即将发售",
-      "url": "https://www.pokemon.cn/tcg/product/19701.html",
-      "image": "assets/img/card_7810b7356e2cfff8.webp",
-      "category_raw": "Product",
-      "date": "2026-02-07"
-    },
-    {
-      "title": "流虹逐丽影，诡像传奇谭！宝可梦卡牌全新补充包商品“璀璨诡幻”及套装商品即将发售！",
-      "url": "https://www.pokemon.cn/tcg/product/20627.html",
-      "image": "assets/img/card_5047476bda9839ed.webp",
-      "category_raw": "Product",
-      "date": "2026-02-07"
     }
   ],
   "events": [
+    {
+      "title": "“盖诺赛克特”纪念徽章蓄势登场！",
+      "url": "https://www.pokemon.cn/tcg/campaign/24347.html",
+      "image": "assets/img/card_d30abfe3e5b5c718.webp",
+      "category_raw": "Campaign",
+      "date": "2026-10-20",
+      "start_date": "2026-11-07",
+      "end_date": "2026-12-06",
+      "summary": "“月亮伊布”纪念徽章领取活动正在进行，满足条件的训练家可前往指定道馆免费领取。 同时，“盖诺赛克特”纪念徽章领取活动也即将登场！快参与道馆活动，领取这个精美的纪念徽章吧！ “盖诺赛克特”纪念徽章领取活动介绍",
+      "status": "即将开始"
+    },
+    {
+      "title": "“盖诺赛克特”纪念磁吸贴领取活动登场，记录属于你的活动时光！",
+      "url": "https://www.pokemon.cn/tcg/campaign/24350.html",
+      "image": "assets/img/card_85a09f9d74489f19.webp",
+      "category_raw": "Campaign",
+      "date": "2026-10-20",
+      "start_date": "2026-11-07",
+      "end_date": "2026-12-06",
+      "summary": "“盖诺赛克特”纪念磁吸贴领取活动即将登场。领取纪念磁吸贴，记录属于你的活动时光吧！后续新活动信息也将在官方平台发布，请训练家们关注官方信息，期待训练家们的参与！ “盖诺赛克特”纪念磁吸贴领取活动介绍 “盖诺赛克特”纪念磁吸贴领取活动",
+      "status": "即将开始"
+    },
+    {
+      "title": "“2026宝可梦卡牌高级赛秋季场”道馆特别活动",
+      "url": "https://www.pokemon.cn/tcg/event/24186.html",
+      "image": "assets/img/card_7afe65c56931d830.webp",
+      "category_raw": "Event",
+      "date": "2026-10-15",
+      "start_date": "2026-07-03",
+      "end_date": "2026-12-20",
+      "summary": "2026宝可梦卡牌高级赛秋季场将于10月24日至11月8日期间举办。为了让更多的训练家能够体验到对战的乐趣，我们将于10月23日起在所有宝可梦官方卡牌道馆举办高级赛期间道馆特别活动。参与还有机会获得高级赛特别礼品。快带上你的家人与朋友们参加吧！ 标准赛制。使用60张卡牌组成的卡组进行对战，奖赏卡为6…",
+      "status": "进行中"
+    },
     {
       "title": "“2026宝可梦卡牌高级赛秋季场”购物小站相关说明",
       "url": "https://www.pokemon.cn/tcg/event/24180.html",
@@ -695,17 +791,6 @@
       "start_date": "2026-10-16",
       "end_date": "2026-12-15",
       "summary": "· 每场比赛第一名的训练家将获得奖赏包1包和嗨皮包3包。 · 获得第二名的训练家将获得嗨皮包2包。 · 获得第三名和第四名的训练家将获得嗨皮包1包。",
-      "status": "即将开始"
-    },
-    {
-      "title": "宝可梦明耀之星“玩乐站冲榜赛”欢乐开启！",
-      "url": "https://www.pokemon.cn/tcg/campaign/24088.html",
-      "image": "assets/img/card_c867fa048dd964a9.webp",
-      "category_raw": "Campaign",
-      "date": "2026-09-29",
-      "start_date": "2026-10-02",
-      "end_date": "2026-10-17",
-      "summary": "明耀之星「战斗收服模式」排名赛（10/2–10/7 指定玩乐站）：各站排行榜前 8 名训练家，以及每站抽出的 1 位幸运训练家可获得奖励；须用小程序「哇家会」的登入码记录成绩才作数。",
       "status": "进行中"
     },
     {
