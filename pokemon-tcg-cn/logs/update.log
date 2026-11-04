@@ -291,3 +291,63 @@ generated_at = 2026-10-05 13:33:55（北京时间，落在本次执行窗口内�
   赛制 G·H·I·J（2026-09-16 生效，未变）  图片 258->269(+11 新增，0 清理)
   非致命告警 6 条（bilibili 412 + 5x goods 页 404，均已知）
 ================================================================================
+
+==============================================================
+[RUN] 2026-10-28 15:01 (Wed) 计划内执行 | commit: chore: 每周数据更新 2026-10-28
+==============================================================
+  [!] 抓取失败 https://www.bilibili.com/video/BV1xg4y1s7fw/: HTTP Error 412: Precondition Failed
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/home-office/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/clothing-accesoies/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/stationaries/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/food/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/goods-other/p/2: HTTP Error 404: Not Found
+[1/4] 抓取商品一览 ...
+      -> 40 条商品
+[2/6] 抓取卡牌资讯 ...
+[3/6] 过滤已结束的赛事活动 ...
+      -> 资讯 160 条 | 进行中赛事活动 12（原 55） | 即将开店 1 | 赛制公告 2（取最新 1 条）
+[4/6] 抓取官方赛事结果（冠军卡组）...
+      -> 赛事结果公告 7 条（含卡组 2 条） | 统计到卡组 6 套
+[5/6] 抓取官方店铺 ...
+  [STALE-FLAG] 以下道馆在 gym_exclusives.json 中仍标记 not_yet_open（尚未开业），但已出现在官网店铺页（即已开业），请人工把该标记改为 false：
+      - 武汉 江汉（大嘴娃）
+      -> 官方卡牌道馆 31 家（已营业）
+[6/6] 抓取周边新品与赛制说明 ...
+      -> 周边新品 3 条 | 标准赛制标记 ['G', 'H', 'I', 'J'] | 更新日期 2026-09-16
+      -> 近 90 天内商品 28 件（未发售 10 件）
+
+已写入 C:\GIH\pokemon-tcg-cn\data\data.json
+已写入 C:\GIH\pokemon-tcg-cn\data\data.js
+  [OK ] 商品: 28
+  [OK ] 赛事活动: 12
+  [OK ] 官方道馆: 31
+  [OK ] 赛制标记: 4
+
+================ 2026-11-04 15:10 | 每周数据更新（计划内执行，常规流程）================
+  [!] 抓取失败 https://www.bilibili.com/video/BV1xg4y1s7fw/: HTTP Error 412: Precondition Failed
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/home-office/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/clothing-accesoies/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/stationaries/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/food/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/goods-other/p/2: HTTP Error 404: Not Found
+[1/4] 抓取商品一览 ...
+      -> 40 条商品
+[2/6] 抓取卡牌资讯 ...
+[3/6] 过滤已结束的赛事活动 ...
+      -> 资讯 160 条 | 进行中赛事活动 15（原 56） | 即将开店 1 | 赛制公告 2（取最新 1 条）
+[4/6] 抓取官方赛事结果（冠军卡组）...
+      -> 赛事结果公告 7 条（含卡组 2 条） | 统计到卡组 6 套
+[5/6] 抓取官方店铺 ...
+  [STALE-FLAG] 以下道馆在 gym_exclusives.json 中仍标记 not_yet_open（尚未开业），但已出现在官网店铺页（即已开业），请人工把该标记改为 false：
+      - 武汉 江汉（大嘴娃）
+      -> 官方卡牌道馆 31 家（已营业）
+[6/6] 抓取周边新品与赛制说明 ...
+      -> 周边新品 3 条 | 标准赛制标记 ['G', 'H', 'I', 'J'] | 更新日期 2026-09-16
+      -> 近 90 天内商品 28 件（未发售 12 件）
+
+已写入 C:\GIH\pokemon-tcg-cn\data\data.json
+已写入 C:\GIH\pokemon-tcg-cn\data\data.js
+  [OK ] 商品: 28
+  [OK ] 赛事活动: 15
+  [OK ] 官方道馆: 31
+  [OK ] 赛制标记: 4
