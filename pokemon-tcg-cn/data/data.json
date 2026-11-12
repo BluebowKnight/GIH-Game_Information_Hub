@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-04 15:10:17",
-    "generated_date": "2026-11-04",
+    "generated_at": "2026-11-12 14:38:34",
+    "generated_date": "2026-11-12",
     "timezone": "Asia/Shanghai",
     "sources": [
       {
@@ -35,7 +35,7 @@
       "bundled": [],
       "image": "assets/img/product_9f43cc0f43f9def7.webp",
       "url": "https://www.pokemon.cn/tcg/product/24290.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "补充包 白焰迸涌",
@@ -49,7 +49,7 @@
       "bundled": [],
       "image": "assets/img/product_cd2bd8c9f1f75739.webp",
       "url": "https://www.pokemon.cn/tcg/product/24290.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "Pokémon宝石包 VOL.7",
@@ -63,7 +63,23 @@
       "bundled": [],
       "image": "assets/img/product_dac6855b355970d8.webp",
       "url": "https://www.pokemon.cn/tcg/product/24281.html",
-      "release_status": "upcoming"
+      "release_status": "released"
+    },
+    {
+      "name": "宝石包徽章套装第二弹",
+      "category": "礼盒套装",
+      "release_raw": "2026年11月6日10时起",
+      "release_date": "2026-11-06",
+      "release_ts": 1793894400,
+      "price": "39元",
+      "content": "1. Pokémon宝石包 VOL.4（4张） 1包\n2. Pokémon宝石包 VOL.5（4张） 1包\n3. Pokémon宝石包 VOL.6（4张） 1包\n4. 宝石包主题徽章 1个（全52种，其中普通款45种，每种等比生产；隐藏款6种，每种等比生产；超级隐藏款1种。普通款、隐藏款、超级隐藏款的生产比例为191:8:1）",
+      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
+      "bundled": [
+        "徽章"
+      ],
+      "image": "assets/img/product_7f494b00f067be1e.webp",
+      "url": "https://www.pokemon.cn/tcg/product/22759.html",
+      "release_status": "released"
     },
     {
       "name": "黑雷奔流硬币套装",
@@ -79,7 +95,7 @@
       ],
       "image": "assets/img/product_2b734075166faa59.webp",
       "url": "https://www.pokemon.cn/tcg/product/21905.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "白焰迸涌硬币套装",
@@ -95,7 +111,7 @@
       ],
       "image": "assets/img/product_dd3853d5cea76d0d.webp",
       "url": "https://www.pokemon.cn/tcg/product/21905.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "黑白专题能量套装",
@@ -109,7 +125,7 @@
       "bundled": [],
       "image": "assets/img/product_4e4581a788f6552b.webp",
       "url": "https://www.pokemon.cn/tcg/product/22850.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "黑白专题 拼图冰箱贴套装（黑）",
@@ -125,7 +141,7 @@
       ],
       "image": "assets/img/product_bb3176df96d9e04a.webp",
       "url": "https://www.pokemon.cn/tcg/product/23021.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "黑白专题 拼图冰箱贴套装（白）",
@@ -141,7 +157,7 @@
       ],
       "image": "assets/img/product_88e1c90424c52655.webp",
       "url": "https://www.pokemon.cn/tcg/product/23021.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "宝可梦收藏卡册 捷克罗姆&莱希拉姆",
@@ -155,7 +171,7 @@
       "bundled": [],
       "image": "assets/img/product_b75c7b9b23f2ac4d.webp",
       "url": "",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "黑白专题 硬币收藏艺术展示框",
@@ -172,10 +188,10 @@
       ],
       "image": "assets/img/product_ed84fcde2b78a08c.webp",
       "url": "",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
-      "name": "宝可梦集换式卡牌游戏硬币收藏册 黑雷奔流 捷克罗姆款",
+      "name": "宝可梦硬币收藏册 黑雷奔流 捷克罗姆款",
       "category": "周边道具",
       "release_raw": "2026年11月6日10时起",
       "release_date": "2026-11-06",
@@ -188,10 +204,10 @@
       ],
       "image": "assets/img/product_b820ef9d20da8c90.webp",
       "url": "https://www.pokemon.cn/tcg/product/21905.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
-      "name": "宝可梦集换式卡牌游戏硬币收藏册 白焰迸涌 莱希拉姆款",
+      "name": "宝可梦硬币收藏册 白焰逬涌 莱希拉姆款",
       "category": "周边道具",
       "release_raw": "2026年11月6日10时起",
       "release_date": "2026-11-06",
@@ -204,7 +220,7 @@
       ],
       "image": "assets/img/product_7cde722b62170bd4.webp",
       "url": "https://www.pokemon.cn/tcg/product/21905.html",
-      "release_status": "upcoming"
+      "release_status": "released"
     },
     {
       "name": "宝可梦卡牌 嗨皮卡组 训练家的宝可梦",
@@ -348,22 +364,6 @@
       "release_status": "released"
     },
     {
-      "name": "绘梦点睛 30周年皮卡丘手办套装",
-      "category": "礼盒套装",
-      "release_raw": "2026年9月16日10时起",
-      "release_date": "2026-09-16",
-      "release_ts": 1789488000,
-      "price": "88元",
-      "content": "1. 随机宝可梦手办 1个（全13款，其中1款为隐藏款。普通款每款等比生产，普通款与隐藏款的生产比例为143:1）\n2. 与手办对应的宝可梦卡 1张\n3. “30周年庆典”补充包（6张） 1包",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [
-        "手办"
-      ],
-      "image": "assets/img/product_6e2b1fe250bcec83.webp",
-      "url": "https://www.pokemon.cn/tcg/product/22430.html",
-      "release_status": "released"
-    },
-    {
       "name": "宝可梦艺术卡套 30周年庆典",
       "category": "周边道具",
       "release_raw": "2026年9月16日10时起",
@@ -440,20 +440,6 @@
       "image": "assets/img/product_338000f7710cff7d.webp",
       "url": "",
       "release_status": "released"
-    },
-    {
-      "name": "Pokémon宝石包VOL.6",
-      "category": "补充包",
-      "release_raw": "2026年8月7日10时起",
-      "release_date": "2026-08-07",
-      "release_ts": 1786032000,
-      "price": "10元/包",
-      "content": "内含4张闪卡",
-      "channel": "宝可梦官方旗舰店及线下合作店铺、宝可梦官方卡牌道馆",
-      "bundled": [],
-      "image": "assets/img/product_b2d450dd221553e3.webp",
-      "url": "https://www.pokemon.cn/tcg/product/23048.html",
-      "release_status": "released"
     }
   ],
   "goods_news": [
@@ -483,6 +469,13 @@
     }
   ],
   "product_news": [
+    {
+      "title": "宝可梦9格活页收藏卡册 30周年庆典即将发售",
+      "url": "https://www.pokemon.cn/tcg/product/24659.html",
+      "image": "assets/img/card_5ef6b8a411bd17ce.webp",
+      "category_raw": "Product",
+      "date": "2026-11-06"
+    },
     {
       "title": "黑白专题 硬币收藏艺术展示框和宝可梦收藏卡册 捷克罗姆&莱希拉姆即将发售！",
       "url": "https://www.pokemon.cn/tcg/24595.html",
@@ -720,25 +713,29 @@
       "image": "assets/img/card_fab1ceb3c7a88ab3.webp",
       "category_raw": "Product",
       "date": "2026-04-13"
-    },
-    {
-      "title": "乘风破浪，寻梦逐宝！Pokémon宝石包第五弹即将发售",
-      "url": "https://www.pokemon.cn/tcg/product/21078.html",
-      "image": "assets/img/card_fde64624ddd01af8.webp",
-      "category_raw": "Product",
-      "date": "2026-03-20"
     }
   ],
   "events": [
     {
-      "title": "2026宝可梦集换式卡牌游戏官方认证裁判笔试细则",
-      "url": "https://www.pokemon.cn/tcg/event/24630.html",
-      "image": "assets/img/card_7894cef15a647f9e.webp",
+      "title": "“斗”志满满！和路卡利欧一起并肩作战吧",
+      "url": "https://www.pokemon.cn/tcg/event/24711.html",
+      "image": "assets/img/card_26455fb9fffddc2e.webp",
       "category_raw": "Event",
-      "date": "2026-11-03",
-      "start_date": "2026-09-16",
-      "end_date": "2026-11-11",
-      "summary": "2026宝可梦集换式卡牌游戏官方认证裁判招募抽选结果已通过“宝可梦卡牌会员”小程序通知。请所有获得考试资格的训练家仔细阅读以下笔试细则。 已获得裁判资格认证的训练家笔试 已获得裁判资格的训练家考试时间及考试流程与上述相同，但考试通知将仅通过手机号发送，不会使用到邮箱信息。",
+      "date": "2026-11-11",
+      "start_date": "2026-11-13",
+      "end_date": "2026-12-31",
+      "summary": "③：使用上述卡组，在①中任意活动中获得1场及以上胜利。 满足以上条件，即可完成任务获得任务奖励。 ※在任务结束后，预计于2026年12月1日（周二）起陆续进行任务完成情况确认及任务奖励发放，请训练家们达成任务条件后耐心等待。",
+      "status": "即将开始"
+    },
+    {
+      "title": "宝可梦卡牌城市赛2026年第五赛季即将开启",
+      "url": "https://www.pokemon.cn/tcg/event/24652.html",
+      "image": "assets/img/card_657a8058a315483c.webp",
+      "category_raw": "Event",
+      "date": "2026-11-06",
+      "start_date": "2026-07-03",
+      "end_date": "2027-01-10",
+      "summary": "城市赛同超级赛、大师赛一样，是宝可梦集换式卡牌游戏官方积分赛事。参与城市赛将有机会获取官方赛事积分，以及城市赛专属特典卡。 1）线上提前报名（随机抽选） 团队赛报名期间：2026年11月9日（周一）18:00—11月10日（周二）23:59，抽选结果将于11月11日（周三）通过小程序通知。",
       "status": "进行中"
     },
     {
@@ -761,17 +758,6 @@
       "start_date": "2026-08-03",
       "end_date": "2026-11-22",
       "summary": "为期17天的阵营对决即将开启！选择你的阵营，参与卡牌对战，为阵营争取荣誉，助力你的阵营获得最终胜利吧！ 活动结束后，训练家将根据所属阵营的最终胜负结果以及活动积分排名，获得对应的奖励。 在主要参与道馆，训练家可参加阵营对抗赛对战活动及其他可获取积分的活动获取积分，符合条件时还可获得积分加成。训练家的…",
-      "status": "进行中"
-    },
-    {
-      "title": "2026宝可梦集换式卡牌游戏官方认证裁判公开招募开启！",
-      "url": "https://www.pokemon.cn/tcg/event/24562.html",
-      "image": "assets/img/card_7894cef15a647f9e.webp",
-      "category_raw": "Event",
-      "date": "2026-10-28",
-      "start_date": "2026-09-16",
-      "end_date": "2026-11-08",
-      "summary": "※ 通过笔试者方可获得面试资格。 ● 获得官方认证裁判考试资格的训练家，需于规定时间参加笔试。 报名方法：2026年10月29日（周四）18:00:00至2026年11月2日（周一）23:59:59期间，训练家可通过微信小程序“宝可梦卡牌会员”进行线上报名。报名将采用随机抽选的方式，从报名的训练家中…",
       "status": "进行中"
     },
     {
@@ -805,7 +791,7 @@
       "start_date": "2026-11-07",
       "end_date": "2026-12-06",
       "summary": "“月亮伊布”纪念徽章领取活动正在进行，满足条件的训练家可前往指定道馆免费领取。 同时，“盖诺赛克特”纪念徽章领取活动也即将登场！快参与道馆活动，领取这个精美的纪念徽章吧！ “盖诺赛克特”纪念徽章领取活动介绍",
-      "status": "即将开始"
+      "status": "进行中"
     },
     {
       "title": "“盖诺赛克特”纪念磁吸贴领取活动登场，记录属于你的活动时光！",
@@ -816,7 +802,7 @@
       "start_date": "2026-11-07",
       "end_date": "2026-12-06",
       "summary": "“盖诺赛克特”纪念磁吸贴领取活动即将登场。领取纪念磁吸贴，记录属于你的活动时光吧！后续新活动信息也将在官方平台发布，请训练家们关注官方信息，期待训练家们的参与！ “盖诺赛克特”纪念磁吸贴领取活动介绍 “盖诺赛克特”纪念磁吸贴领取活动",
-      "status": "即将开始"
+      "status": "进行中"
     },
     {
       "title": "“2026宝可梦卡牌高级赛秋季场”道馆特别活动",
@@ -830,17 +816,6 @@
       "status": "进行中"
     },
     {
-      "title": "“2026宝可梦卡牌高级赛秋季场”购物小站相关说明",
-      "url": "https://www.pokemon.cn/tcg/event/24180.html",
-      "image": "assets/img/card_7afe65c56931d830.webp",
-      "category_raw": "Event",
-      "date": "2026-10-14",
-      "start_date": "2026-10-24",
-      "end_date": "2026-11-08",
-      "summary": "2026-10-14 2026宝可梦卡牌高级赛秋季场将于10月24日至11月8日期间举办。 我们为本次高级赛准备了特别商品，并将在各比赛会场的购物小站、宝可梦官方旗舰店及宝可梦官方卡牌道馆售卖。",
-      "status": "进行中"
-    },
-    {
       "title": "一起嗨皮起来吧！全新嗨皮组合登场！和训练家伙伴们，一起嗨皮起来吧！",
       "url": "https://www.pokemon.cn/tcg/event/24146.html",
       "image": "assets/img/card_3e9e1290d052b8da.webp",
@@ -849,17 +824,6 @@
       "start_date": "2026-10-16",
       "end_date": "2026-12-15",
       "summary": "· 每场比赛第一名的训练家将获得奖赏包1包和嗨皮包3包。 · 获得第二名的训练家将获得嗨皮包2包。 · 获得第三名和第四名的训练家将获得嗨皮包1包。",
-      "status": "进行中"
-    },
-    {
-      "title": "“2026宝可梦卡牌高级赛秋季场”赛事详情及报名开启",
-      "url": "https://www.pokemon.cn/tcg/event/24035.html",
-      "image": "assets/img/card_7afe65c56931d830.webp",
-      "category_raw": "Event",
-      "date": "2026-09-29",
-      "start_date": "2018-10-31",
-      "end_date": "2026-11-08",
-      "summary": "10 月 24 日起在全国开展的官方高级赛秋季场：公开组为团队赛、采用标准赛制，分公开组 / 少年组 / 儿童组。属官方积分赛事，公告未公布具体奖品。",
       "status": "进行中"
     },
     {
@@ -1281,7 +1245,7 @@
         "image": "assets/img/shop_d80478f799eb98da.webp",
         "hours": "周一至周日 10:00~22:00",
         "closed": "以设施的休息日为准",
-        "address": "上海市嘉定区陈翔公路2299号上海南翔印象",
+        "address": "上海市嘉定区陈翔公路2299号上海南翔印象城MEGA 2层",
         "exclusives": [
           "冰箱贴",
           "钥匙扣",
@@ -1346,6 +1310,14 @@
         "grand_gift": "特典卡「虫电宝」",
         "grand_gift_note": "单次消费满 99 元可领取（开业后 1~2 个月内）",
         "opened": "2025-12-04",
+        "not_yet_open": false
+      },
+      {
+        "name": "宝可梦官方卡牌道馆-深圳 福田（斑斑马）",
+        "image": "assets/img/shop_17592ca759f43193.webp",
+        "hours": "周日至周四 10:00~22:00，周五及周六 10:00~22:30",
+        "closed": "以设施的休息日为准",
+        "address": "深圳市福田区福华一路3号领展中心城G层",
         "not_yet_open": false
       },
       {
@@ -1458,6 +1430,20 @@
       }
     ],
     "news": [
+      {
+        "title": "“宝可梦官方卡牌道馆-佛山”即将与大家见面",
+        "url": "https://www.pokemon.cn/tcg/campaign/24701.html",
+        "image": "assets/img/card_d8619333a525563e.webp",
+        "category_raw": "Campaign",
+        "date": "2026-11-11"
+      },
+      {
+        "title": "“宝可梦官方卡牌道馆-深圳 福田（斑斑马）”即将与大家见面",
+        "url": "https://www.pokemon.cn/tcg/campaign/24632.html",
+        "image": "assets/img/card_6f25b8e6bf966f75.webp",
+        "category_raw": "Campaign",
+        "date": "2026-11-06"
+      },
       {
         "title": "“宝可梦官方卡牌道馆-武汉 江汉（大嘴娃）”即将与大家见面",
         "url": "https://www.pokemon.cn/tcg/campaign/24025.html",

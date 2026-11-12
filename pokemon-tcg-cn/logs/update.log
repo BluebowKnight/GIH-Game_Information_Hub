@@ -351,3 +351,36 @@ generated_at = 2026-10-05 13:33:55（北京时间，落在本次执行窗口内�
   [OK ] 赛事活动: 15
   [OK ] 官方道馆: 31
   [OK ] 赛制标记: 4
+
+==============================================
+[FULL-REFRESH] 2026-11-12 14:29 | 原因: 非计划执行（实际执行 2026-11-12 14:29 周四，偏离计划周三 15:00 超过 30 分钟） | 范围: 全量重抓（无 --dry-run/--no-image，五栏目全跑）
+==============================================
+  [!] 抓取失败 https://www.bilibili.com/video/BV1xg4y1s7fw/: HTTP Error 412: Precondition Failed
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/home-office/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/clothing-accesoies/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/stationaries/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/food/p/2: HTTP Error 404: Not Found
+  [!] 抓取失败 https://www.pokemon.cn/category/goods/goods-other/p/2: HTTP Error 404: Not Found
+[1/4] 抓取商品一览 ...
+      -> 40 条商品
+[2/6] 抓取卡牌资讯 ...
+[3/6] 过滤已结束的赛事活动 ...
+      -> 资讯 160 条 | 进行中赛事活动 13（原 54） | 即将开店 3 | 赛制公告 2（取最新 1 条）
+[4/6] 抓取官方赛事结果（冠军卡组）...
+      -> 赛事结果公告 7 条（含卡组 2 条） | 统计到卡组 6 套
+[5/6] 抓取官方店铺 ...
+  [DRAFT-MISSING] 以下道馆已出现在官网店铺页，但 gym_exclusives.json 尚未收录（开业日期/开业特典缺失），请人工补充：
+      - 宝可梦官方卡牌道馆-深圳 福田（斑斑马）
+  [STALE-FLAG] 以下道馆在 gym_exclusives.json 中仍标记 not_yet_open（尚未开业），但已出现在官网店铺页（即已开业），请人工把该标记改为 false：
+      - 武汉 江汉（大嘴娃）
+      -> 官方卡牌道馆 32 家（已营业）
+[6/6] 抓取周边新品与赛制说明 ...
+      -> 周边新品 3 条 | 标准赛制标记 ['G', 'H', 'I', 'J'] | 更新日期 2026-09-16
+      -> 近 90 天内商品 27 件（未发售 0 件）
+
+已写入 C:\GIH\pokemon-tcg-cn\data\data.json
+已写入 C:\GIH\pokemon-tcg-cn\data\data.js
+  [OK ] 商品: 27
+  [OK ] 赛事活动: 13
+  [OK ] 官方道馆: 32
+  [OK ] 赛制标记: 4
