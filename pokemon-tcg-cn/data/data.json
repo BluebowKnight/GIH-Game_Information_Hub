@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-12 14:38:34",
-    "generated_date": "2026-11-12",
+    "generated_at": "2026-11-18 15:23:50",
+    "generated_date": "2026-11-18",
     "timezone": "Asia/Shanghai",
     "sources": [
       {
@@ -699,23 +699,20 @@
       "image": "assets/img/card_7bb8a09c825ee611.webp",
       "category_raw": "Product",
       "date": "2026-04-13"
-    },
-    {
-      "title": "星晶绽放，华光焕彩！宝可梦卡牌全新补充包商品“星彩晶璃”即将发售",
-      "url": "https://www.pokemon.cn/tcg/product/21383.html",
-      "image": "assets/img/card_fab1ceb3c7a88ab3.webp",
-      "category_raw": "Product",
-      "date": "2026-04-13"
-    },
-    {
-      "title": "星晶绽放，华光焕彩！内含全新补充包“星彩晶璃”的硬币套装及更多商品即将发售！",
-      "url": "https://www.pokemon.cn/tcg/product/21409.html",
-      "image": "assets/img/card_fab1ceb3c7a88ab3.webp",
-      "category_raw": "Product",
-      "date": "2026-04-13"
     }
   ],
   "events": [
+    {
+      "title": "2026宝可梦集换式卡牌游戏官方认证裁判考试面试细则",
+      "url": "https://www.pokemon.cn/tcg/event/24724.html",
+      "image": "assets/img/card_7894cef15a647f9e.webp",
+      "category_raw": "Event",
+      "date": "2026-11-13",
+      "start_date": "2026-11-19",
+      "end_date": "2026-12-10",
+      "summary": "通过面试的训练家，即可获得官方认证裁判资格，并将参与裁判培训。裁判培训相关信息将在面试结果发出后通过邮件通知，请训练家持续关注。 所有通过本次考试获得裁判资格的训练家，将获得2026规则专家徽章1枚。徽章将通过邮寄的形式发放，邮寄时间将另行通过“宝可梦卡牌会员”小程序客服个别通知。",
+      "status": "即将开始"
+    },
     {
       "title": "“斗”志满满！和路卡利欧一起并肩作战吧",
       "url": "https://www.pokemon.cn/tcg/event/24711.html",
@@ -725,7 +722,7 @@
       "start_date": "2026-11-13",
       "end_date": "2026-12-31",
       "summary": "③：使用上述卡组，在①中任意活动中获得1场及以上胜利。 满足以上条件，即可完成任务获得任务奖励。 ※在任务结束后，预计于2026年12月1日（周二）起陆续进行任务完成情况确认及任务奖励发放，请训练家们达成任务条件后耐心等待。",
-      "status": "即将开始"
+      "status": "进行中"
     },
     {
       "title": "宝可梦卡牌城市赛2026年第五赛季即将开启",
@@ -1040,6 +1037,14 @@
         "grand_gift": "特典卡「铁哑铃」",
         "grand_gift_note": "单次消费满 99 元可领取（开业后 1~2 个月内）",
         "opened": "2026-07-25",
+        "not_yet_open": false
+      },
+      {
+        "name": "宝可梦官方卡牌道馆-佛山（功夫鼬）",
+        "image": "assets/img/shop_2764e1c1c12dad6e.webp",
+        "hours": "周日至周四 10:00~22:00，周五及周六 10:00~22:30",
+        "closed": "以设施的休息日为准",
+        "address": "广东省佛山市禅城区季华四路 70 号 王府井紫薇港LG层",
         "not_yet_open": false
       },
       {
@@ -2120,9 +2125,9 @@
   },
   "regulation": {
     "source_url": "https://www.pokemon.cn/tcg/rules/regulation/",
-    "updated_at": "2026-09-16",
+    "updated_at": "2026-11-16",
     "standard": {
-      "effective_from": "2026-09-16",
+      "effective_from": "2026-11-06",
       "marks": [
         "G",
         "H",
@@ -2142,7 +2147,7 @@
         {
           "title": "可在标准赛制中使用的卡牌",
           "texts": [
-            "（自2026年9月16日起）",
+            "（自2026年11月6日起）",
             "卡牌左下角的赛制标记为 G、H、I 、J的卡牌和8种基本能量卡"
           ],
           "cards": []
@@ -2162,6 +2167,7 @@
             "裁判",
             "超级球",
             "巢穴球",
+            "道具拆除器",
             "反击捕捉器",
             "反击增幅器",
             "粉碎之锤",
@@ -2177,6 +2183,7 @@
             "能量转移",
             "朋友手册",
             "伤药",
+            "气球",
             "神奇糖果",
             "西餐厨师",
             "学习装置",
@@ -2184,7 +2191,7 @@
           ]
         }
       ],
-      "raw": "标准赛制\n更新日期：2026年9月16日\n关于标准赛制\n在标准赛制中，可使用的卡牌范围会围绕最新的卡牌进行规定，即使是新手也能迅速开始游戏。大部分的官方赛事都会使用这个赛制。\n可在标准赛制中使用的卡牌\n（自2026年9月16日起）\n卡牌左下角的赛制标记为 G、H、I 、J的卡牌和8种基本能量卡\n关于过去系列的卡牌\n以下在“太阳&月亮”系列或“剑&盾”系列收录的卡牌，也可以加入卡组中使用。若要将“太阳&月亮”系列或“剑&盾”系列收录的以下卡牌加入卡组，卡牌上的描述按最新卡牌的描述为准。\n宝可梦捕捉器\n宝可梦交替\n宝可装置3.0\n宝可梦中心的姐姐\n博士的研究\n裁判\n超级球\n巢穴球\n反击捕捉器\n反击增幅器\n粉碎之锤\n改造之锤\n高级球\n活力头带\n讲究腰带\n精灵球\n老大的指令\n能量回收\n能量输送\n能量再利用\n能量转移\n朋友手册\n伤药\n神奇糖果\n西餐厨师\n学习装置\n各种基本能量卡\n※卡牌名称为“博士的研究”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※卡牌名称为“老大的指令”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。"
+      "raw": "标准赛制\n更新日期：2026年11月16日\n关于标准赛制\n在标准赛制中，可使用的卡牌范围会围绕最新的卡牌进行规定，即使是新手也能迅速开始游戏。大部分的官方赛事都会使用这个赛制。\n可在标准赛制中使用的卡牌\n（自2026年11月6日起）\n卡牌左下角的赛制标记为 G、H、I 、J的卡牌和8种基本能量卡\n关于过去系列的卡牌\n以下在“太阳&月亮”系列或“剑&盾”系列收录的卡牌，也可以加入卡组中使用。若要将“太阳&月亮”系列或“剑&盾”系列收录的以下卡牌加入卡组，卡牌上的描述按最新卡牌的描述为准。\n宝可梦捕捉器\n宝可梦交替\n宝可装置3.0\n宝可梦中心的姐姐\n博士的研究\n裁判\n超级球\n巢穴球\n道具拆除器\n反击捕捉器\n反击增幅器\n粉碎之锤\n改造之锤\n高级球\n活力头带\n讲究腰带\n精灵球\n老大的指令\n能量回收\n能量输送\n能量再利用\n能量转移\n朋友手册\n伤药\n气球\n神奇糖果\n西餐厨师\n学习装置\n各种基本能量卡\n※卡牌名称为“博士的研究”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※卡牌名称为“老大的指令”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。"
     },
     "open": {
       "effective_from": "",
@@ -2238,6 +2245,7 @@
             "裁判",
             "超级球",
             "巢穴球",
+            "道具拆除器",
             "反击捕捉器",
             "反击增幅器",
             "粉碎之锤",
@@ -2258,6 +2266,7 @@
             "朋友手册",
             "千金小姐",
             "伤药",
+            "气球",
             "神奇糖果",
             "西餐厨师",
             "学习装置",
@@ -2268,7 +2277,7 @@
           ]
         }
       ],
-      "raw": "开放赛制\n更新日期：2026年9月16日\n关于开放赛制\n与标准赛制不同，开放赛制允许使用早期贩售的卡牌，可使用的卡牌种类丰富，会带来不同的游戏感受。\n可在开放赛制中使用的卡牌\n“太阳&月亮”系列的卡牌\n“剑&盾”系列的卡牌\n“朱&紫”系列的卡牌\n商品编号为30thC且带有赛制标记的卡牌\n商品编号为30thDC的卡牌\n商品编号为PROMO且卡牌编号为XXX/30th-P的卡牌\n各种基本能量卡\n以下卡牌无法加入卡组中\n玛夏多（特性：破罐破摔）\n阿塞萝拉\n全满药\n※即便卡牌的卡面或者稀有度不同，只要卡牌、宝可梦的特性、招式名称相同，该卡牌便无法使用。\n※我们会持续关注并检视宝可梦卡牌的对战环境，当前指定的无法使用的卡牌将来有可能恢复使用，而其他卡牌也有可能变成不能使用的卡牌。\n关于过去系列的卡牌\n若要将“太阳&月亮”系列或“剑&盾”系列收录的以下卡牌加入卡组，卡牌上的描述按最新卡牌的描述为准。\n宝可梦捕捉器\n宝可梦交替\n宝可装置3.0\n宝可梦中心的姐姐\n博士的研究\n捕虫少年\n裁判\n超级球\n巢穴球\n反击捕捉器\n反击增幅器\n粉碎之锤\n改造之锤\n高级球\n活力头带\n讲究腰带\n精灵球\n老大的指令\n离洞绳\n谜之化石\n模仿少女\n能量回收\n能量签\n能量输送\n能量再利用\n能量转移\n朋友手册\n千金小姐\n伤药\n神奇糖果\n西餐厨师\n学习装置\n各种基本能量卡\n※卡牌名称为“博士的研究”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※卡牌名称为“老大的指令”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※于开放赛制中可使用的特别的卡牌可以点击这里查看。 \n              官方账号\n                      官方账号\n使用条款\n隐私政策\n儿童隐私政策\n©Pokémon. ©Nintendo/Creatures Inc./GAME FREAK inc.\n“Pokémon”和“宝可梦”均为任天堂商标。\n沪ICP备2020029152号-2\n沪公网安备 31010502006288号\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/pokemon/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://www.pokemon.cn/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}}\n/*! This file is auto-generated */\nvar e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf(){i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});\n//# sourceURL=https://www.pokemon.cn/wp-includes/js/wp-emoji-loader.min.js"
+      "raw": "开放赛制\n更新日期：2026年11月16日\n关于开放赛制\n与标准赛制不同，开放赛制允许使用早期贩售的卡牌，可使用的卡牌种类丰富，会带来不同的游戏感受。\n可在开放赛制中使用的卡牌\n“太阳&月亮”系列的卡牌\n“剑&盾”系列的卡牌\n“朱&紫”系列的卡牌\n商品编号为30thC且带有赛制标记的卡牌\n商品编号为30thDC的卡牌\n商品编号为PROMO且卡牌编号为XXX/30th-P的卡牌\n各种基本能量卡\n以下卡牌无法加入卡组中\n玛夏多（特性：破罐破摔）\n阿塞萝拉\n全满药\n※即便卡牌的卡面或者稀有度不同，只要卡牌、宝可梦的特性、招式名称相同，该卡牌便无法使用。\n※我们会持续关注并检视宝可梦卡牌的对战环境，当前指定的无法使用的卡牌将来有可能恢复使用，而其他卡牌也有可能变成不能使用的卡牌。\n关于过去系列的卡牌\n若要将“太阳&月亮”系列或“剑&盾”系列收录的以下卡牌加入卡组，卡牌上的描述按最新卡牌的描述为准。\n宝可梦捕捉器\n宝可梦交替\n宝可装置3.0\n宝可梦中心的姐姐\n博士的研究\n捕虫少年\n裁判\n超级球\n巢穴球\n道具拆除器\n反击捕捉器\n反击增幅器\n粉碎之锤\n改造之锤\n高级球\n活力头带\n讲究腰带\n精灵球\n老大的指令\n离洞绳\n谜之化石\n模仿少女\n能量回收\n能量签\n能量输送\n能量再利用\n能量转移\n朋友手册\n千金小姐\n伤药\n气球\n神奇糖果\n西餐厨师\n学习装置\n各种基本能量卡\n※卡牌名称为“博士的研究”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※卡牌名称为“老大的指令”的卡牌，即使人物名称或插画中的人物不同，也均视作卡牌名称相同的卡牌。\n※于开放赛制中可使用的特别的卡牌可以点击这里查看。 \n              官方账号\n                      官方账号\n使用条款\n隐私政策\n儿童隐私政策\n©Pokémon. ©Nintendo/Creatures Inc./GAME FREAK inc.\n“Pokémon”和“宝可梦”均为任天堂商标。\n沪ICP备2020029152号-2\n沪公网安备 31010502006288号\n{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*\",\"/wp-content/plugins/*\",\"/wp-content/themes/pokemon/*\",\"/*\\\\?(.+)\"]}},{\"not\":{\"selector_matches\":\"a[rel~=\\\"nofollow\\\"]\"}},{\"not\":{\"selector_matches\":\".no-prefetch, .no-prefetch a\"}}]},\"eagerness\":\"conservative\"}]}\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://www.pokemon.cn/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}}\n/*! This file is auto-generated */\nvar e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf(){i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});\n//# sourceURL=https://www.pokemon.cn/wp-includes/js/wp-emoji-loader.min.js"
     },
     "news": [
       {
